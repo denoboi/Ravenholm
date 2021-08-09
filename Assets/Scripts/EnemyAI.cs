@@ -10,7 +10,7 @@ public class EnemyAI : MonoBehaviour
 
     NavMeshAgent navMeshAgent;
     float distanceToTarget;
-    
+    bool isProvoked = false;
     
     void Start()
     {
@@ -21,11 +21,52 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         distanceToTarget = Vector3.Distance(target.position, transform.position);
-        if(distanceToTarget <= chaseRange)
+
+        if (isProvoked)
         {
-             navMeshAgent.SetDestination(target.position);
+            EngageTarget();
+        }
+
+        
+        else if(distanceToTarget <= chaseRange)
+        {
+             
+             isProvoked = true;
         }
         
+        
        
+    }
+     void OnDrawGizmosSelected()
+    {
+        // Display the chase radius when selected
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, chaseRange);
+    }
+
+    void ChaseTarget()
+    {
+        navMeshAgent.SetDestination(target.position);
+    }
+    void EngageTarget()
+    {
+        // stopping distance player'in yanina gelme uzakligi. 
+        // stopping distance'i 1 yaparsam 1 birim yanina gelene kadar takip edecek.
+        if (distanceToTarget >= navMeshAgent.stoppingDistance) 
+        {
+            ChaseTarget();
+        }
+
+        //stopping distance seviyesine gelirse o zaman saldirmaya baslayacak.
+        if(distanceToTarget <= navMeshAgent.stoppingDistance)
+        {
+            AttackTarget();
+        }
+    }
+
+   
+    void AttackTarget()
+    {
+        Debug.Log(name + "has seeked and is destroying" + target.name);
     }
 }

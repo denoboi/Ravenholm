@@ -108,9 +108,9 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.82
     agentHeight: 2.12
-    agentSlope: 52.3
-    agentClimb: 2
-    ledgeDropHeight: 0.72
+    agentSlope: 45.5
+    agentClimb: 0.7
+    ledgeDropHeight: 0
     maxJumpAcrossDistance: 1.49
     minRegionArea: 2
     manualCellSize: 0
@@ -459,7 +459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 104.229614
+      value: 105.82
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalPosition.y
@@ -467,7 +467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.323425
+      value: 23.63
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1529,7 +1529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.9570932
+      value: 28.97
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1537,7 +1537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.4054918
+      value: -1.08
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1662,21 +1662,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 7516788911432278157, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
+      propertyPath: m_AutoTraverseOffMeshLink
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516788911432278158, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
+      propertyPath: m_Height
+      value: 2.0407574
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516788911432278158, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
+      propertyPath: m_Center.y
+      value: -0.069621444
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516788911432278158, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 1bfcd953866234d46912585ce4c0be82, type: 2}
+    - target: {fileID: 7516788911432278159, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278161, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278161, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.43
+      value: 17.15
       objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278161, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.05
+      value: 1.957
       objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278161, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25.75588
+      value: -16.32
       objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278161, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1712,7 +1732,7 @@ PrefabInstance:
       objectReference: {fileID: 1507281065}
     - target: {fileID: 7516788911432278162, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: chaseRange
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
