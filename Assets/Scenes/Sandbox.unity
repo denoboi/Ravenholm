@@ -374,6 +374,19 @@ MonoBehaviour:
   range: 100
   fpCamera: {fileID: 660367473}
   damage: 20
+--- !u!65 &546746558
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546746552}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8751357, y: 9.563653, z: 31.991663}
+  m_Center: {x: 0.00000031976728, y: -0.9612788, z: -2.7296076}
 --- !u!1001 &571691225
 PrefabInstance:
   m_ObjectHideFlags: 0
