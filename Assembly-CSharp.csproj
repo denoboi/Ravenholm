@@ -56,13 +56,20 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\EnemyAI.cs" />
+    <Compile Include="Assets\Reticle.cs" />
+    <Compile Include="Assets\SMC Pack 1\Demo\DemoAssets\V_Text.cs" />
     <Compile Include="Assets\SMC Pack 1\Demo\DemoAssets\V_SMC_Handler.cs" />
     <Compile Include="Assets\SMC Pack 1\Demo\DemoAssets\V_SMC_Camera.cs" />
-    <Compile Include="Assets\SMC Pack 1\Demo\DemoAssets\V_Text.cs" />
-    <Compile Include="Assets\Reticle.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI.cs" />
+    <Compile Include="Assets\sprite muzzle flashes\AnimatedTexture.cs" />
+    <Compile Include="Assets\RunAfter\RunAfter\CoroutineHelper.cs" />
+    <Compile Include="Assets\RunAfter\RunAfter\GUIHelper.cs" />
+    <Compile Include="Assets\RunAfter\RunAfter\SimpleEvent.cs" />
+    <Compile Include="Assets\RunAfter\RunAfter\MonoBehaviourSingleton.cs" />
+    <Compile Include="Assets\RunAfter\RunAfter\Run.cs" />
+    <Compile Include="Assets\RunAfter\RunAfter\TestBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
