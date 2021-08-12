@@ -1515,13 +1515,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b81a70233d5d641a52781124e7f681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  height: 10
-  width: 2
-  defaultSpread: 50.48
-  color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  height: 2
+  width: 8
+  defaultSpread: 35
+  color: {r: 0.7830189, g: 0.039889578, b: 0.039889578, a: 1}
   resizeable: 1
-  resizedSpread: 20
-  resizeSpeed: 3
+  resizedSpread: 250
+  resizeSpeed: 4
 --- !u!1001 &1407410269
 PrefabInstance:
   m_ObjectHideFlags: 0
