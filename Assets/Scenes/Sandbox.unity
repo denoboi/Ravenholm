@@ -1516,9 +1516,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   height: 2
-  width: 8
+  width: 7
   defaultSpread: 35
-  color: {r: 0.7830189, g: 0.039889578, b: 0.039889578, a: 1}
+  color: {r: 1, g: 0.8231891, b: 0.7396226, a: 1}
   resizeable: 1
   resizedSpread: 250
   resizeSpeed: 4
@@ -2539,7 +2539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 546746557, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: damage
-      value: 25
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 546746557, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: muzzleSprite
