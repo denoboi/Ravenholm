@@ -286,12 +286,6 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Users\asus\Desktop\Unity\2020.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp-Editor-firstpass">
-      <HintPath>Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:\Users\asus\Desktop\Unity\2020.3.8f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
     </Reference>
