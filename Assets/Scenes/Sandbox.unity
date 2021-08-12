@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.82
-    agentHeight: 2.12
-    agentSlope: 45.5
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
     agentClimb: 0.7
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 1.49
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.27333334
+    cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -2226,57 +2226,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &1960195990 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7516788911432278155, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
-  m_PrefabInstance: {fileID: 7516788911572971168}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1960195991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960195990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8f89e59406cd364093788cfd3162ad2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitPoints: 100
---- !u!114 &1960195992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960195990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65842d8b4a8940845bbed79c2413a112, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1507281065}
-  damage: 40
---- !u!95 &1960195999
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960195990}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bc2685381a1564a47aaf18c020bd5700, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2002053133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2659,49 +2608,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1512161765, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1406473
-      objectReference: {fileID: 0}
-    - target: {fileID: 1512161765, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1934778
-      objectReference: {fileID: 0}
-    - target: {fileID: 590116084368996029, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
+    - target: {fileID: 1960195992, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1507281065}
+    - target: {fileID: 1960195999, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 628f2a9f114b8394b9a5874eb4b314ad, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278155, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 7516788911432278156, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
-      propertyPath: m_Mass
-      value: 1
+    - target: {fileID: 7516788911432278157, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
+      propertyPath: m_Speed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278157, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_StoppingDistance
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7516788911432278157, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
-      propertyPath: m_AutoTraverseOffMeshLink
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7516788911432278158, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
-      propertyPath: m_Height
-      value: 2.0407574
-      objectReference: {fileID: 0}
-    - target: {fileID: 7516788911432278158, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
-      propertyPath: m_Center.y
-      value: -0.069621444
-      objectReference: {fileID: 0}
-    - target: {fileID: 7516788911432278158, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1bfcd953866234d46912585ce4c0be82, type: 2}
-    - target: {fileID: 7516788911432278159, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278161, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_RootOrder
@@ -2709,7 +2634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278161, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.15
+      value: 20.568
       objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278161, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2751,9 +2676,5 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1507281065}
-    - target: {fileID: 7516788911432278162, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
-      propertyPath: chaseRange
-      value: 15
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
