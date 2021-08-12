@@ -11,10 +11,14 @@ public class EnemyAI : MonoBehaviour
     NavMeshAgent navMeshAgent;
     float distanceToTarget;
     bool isProvoked = false;
+    Animator attackAnim;
+    Animator moveAnim;
     
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
+        attackAnim = gameObject.GetComponent<Animator>();
+        moveAnim = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -32,6 +36,7 @@ public class EnemyAI : MonoBehaviour
         {
              
              isProvoked = true;
+            moveAnim.SetTrigger("Move 0");
         }
         
         
@@ -47,11 +52,13 @@ public class EnemyAI : MonoBehaviour
     void ChaseTarget()
     {
         navMeshAgent.SetDestination(target.position);
+        
     }
     void EngageTarget()
     {
         // stopping distance player'in yanina gelme uzakligi. 
         // stopping distance'i 1 yaparsam 1 birim yanina gelene kadar takip edecek.
+
         if (distanceToTarget >= navMeshAgent.stoppingDistance) 
         {
             ChaseTarget();
@@ -61,6 +68,7 @@ public class EnemyAI : MonoBehaviour
         if(distanceToTarget <= navMeshAgent.stoppingDistance)
         {
             AttackTarget();
+            
         }
     }
 
