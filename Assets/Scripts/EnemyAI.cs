@@ -36,7 +36,7 @@ public class EnemyAI : MonoBehaviour
         {
             
             isProvoked = true;
-             attackAnim.SetTrigger("Attack");
+             
         }
         
         
@@ -63,6 +63,7 @@ public class EnemyAI : MonoBehaviour
         if (distanceToTarget >= navMeshAgent.stoppingDistance) 
         {
             ChaseTarget();
+            GetComponent<Animator>().SetBool("Attack", false);
         }
 
         //stopping distance seviyesine gelirse o zaman saldirmaya baslayacak.
