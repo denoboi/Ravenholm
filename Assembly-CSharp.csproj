@@ -213,6 +213,18 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\[Game]\Scripts\ReloadScene.cs" />
+    <Compile Include="Assets\[Game]\Scripts\DeathHandler.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonOrbit.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonLoopScript.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonButtonScript.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonRotation.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonBeamScript.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonSceneSelect.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonLightFade.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonFireProjectile.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonLightFlicker.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonProjectileScript.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonSoundSpawn.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Asset Packs\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
@@ -229,12 +241,15 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Polygon Arsenal\Shaders\Standard\PolyIntense.Shader" />
+     <None Include="Assets\Polygon Arsenal\Shaders\Standard\PolyRimLightSelective.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
      <None Include="Assets\FPS Pack\Shaders\FPSProjectorBlended.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
      <None Include="Assets\Asset Packs\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Polygon Arsenal\Shaders\Standard\PolyRimLightSolid.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
@@ -244,6 +259,7 @@
      <None Include="Assets\Asset Packs\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\FPS Pack\Shaders\FPSParticleBlendDirLight.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Polygon Arsenal\Polygon Arsenal - Readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -259,11 +275,13 @@
      <None Include="Assets\Asset Packs\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Asset Packs\Standard Assets\Effects\ImageEffects\Readme.txt" />
+     <None Include="Assets\Polygon Arsenal\Shaders\Standard\PolyRimLightTransparent.shader" />
      <None Include="Assets\FPS Pack\Shaders\FPSDistortionParticles.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Asset Packs\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\FPS Pack\Shaders\FPSWaterParticles.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Polygon Arsenal\Shaders\Standard\PolyLitSurface.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
