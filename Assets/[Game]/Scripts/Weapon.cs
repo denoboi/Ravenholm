@@ -7,9 +7,14 @@ public class Weapon : MonoBehaviour
     [SerializeField] float range = 100f;
     [SerializeField] Camera fpCamera;
     [SerializeField] float damage = 20f;
-    [SerializeField] GameObject muzzleSprite;
+    //[SerializeField] GameObject muzzleSprite;
+    [SerializeField] ParticleSystem dash;
+    //[SerializeField] ParticleSystem fireball;
+    [SerializeField] GameObject fireball;
+    [SerializeField] float shootForce = 5f;
+
     // Start is called before the first frame update
-    Run spriteDelay;
+    //Run spriteDelay;
     void Start()
     {
         
@@ -21,20 +26,34 @@ public class Weapon : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
-            muzzleSprite.SetActive(true);
-            if (spriteDelay != null)
-                spriteDelay.Abort();
-          spriteDelay =  Run.After(0.2f, () =>
-            {
-                muzzleSprite.SetActive(false);
-            });
+            //muzzleSprite.SetActive(true);
+            //if (spriteDelay != null)
+                //spriteDelay.Abort();
+          //spriteDelay =  Run.After(0.2f, () =>
+            //{
+               // muzzleSprite.SetActive(false);
+           // });
+
+            dash.Play();
+            //fireball.Play();
+            GameObject projectile = (GameObject)Instantiate(fireball, transform.position,transform.rotation);
+            projectile.GetComponent<Rigidbody>().AddForce(fireball.transform.forward* shootForce); 
         }
+
+        //if (Input.GetButton("Fire1"))
+        //{
+        //    
+        //}
+        //else if (Input.GetButtonUp("Fire1"))
+        //{
+        //    fireball.Stop();
+        //}
      
     }
 
     void Shoot()
     {
-        muzzleSprite.SetActive(true);
+       
         ProcessRaycast();
         
     }
@@ -48,12 +67,12 @@ public class Weapon : MonoBehaviour
             EnemyHealth target = hit.transform.GetComponent<EnemyHealth>(); 
             if (target == null) return; //enemy yerine diger objelere ates edersem.
             target.TakeDamage(damage); // asil oldurecek olan bu.
-            muzzleSprite.SetActive(true);
+            
 
         }
         else
         {
-            muzzleSprite.SetActive(false);
+            
         }
     }
 
@@ -63,7 +82,7 @@ public class Weapon : MonoBehaviour
         {
           
         }
-        muzzleSprite.SetActive(true);
+        
         
     }
     
