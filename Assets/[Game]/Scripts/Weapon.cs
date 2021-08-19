@@ -36,7 +36,7 @@ public class Weapon : MonoBehaviour
 
             dash.Play();
             //fireball.Play();
-            GameObject projectile = (GameObject)Instantiate(fireball, transform.position,transform.rotation);
+            GameObject projectile = (GameObject)Instantiate(fireball, fpCamera.transform.position, fpCamera.transform.rotation);
             projectile.GetComponent<Rigidbody>().AddForce(fireball.transform.forward* shootForce); 
         }
 
