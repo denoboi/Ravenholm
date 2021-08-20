@@ -14,12 +14,22 @@ public class EnemyAI : MonoBehaviour
     bool isProvoked = false;
     Animator attackAnim;
     Animator moveAnim;
-    
+
+    private void OnEnable()
+    {
+        EventManager.OnDamageTaken.AddListener(OnDamageTaken);
+        navMeshAgent = GetComponent<NavMeshAgent>();
+
+        moveAnim = gameObject.GetComponent<Animator>();
+    }
+    private void OnDisable()
+    {
+        EventManager.OnDamageTaken.RemoveListener(OnDamageTaken);
+    }
+
     void Start()
     {
-        navMeshAgent = GetComponent<NavMeshAgent>();
         
-        moveAnim = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -76,6 +86,11 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    void OnDamageTaken()
+    {
+        isProvoked = true;
+        
+    }
 
    
     void AttackTarget()

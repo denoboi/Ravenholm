@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+
     [SerializeField] float hitPoints = 100f;
     
     
@@ -13,12 +14,16 @@ public class EnemyHealth : MonoBehaviour
     }
     public void TakeDamage(float damage)
     {
+        EventManager.OnDamageTaken.Invoke();
         hitPoints -= damage; //ne kadar damage ise o kadar health azalacak.
         if (hitPoints == 0)
         {
             Destroy(gameObject);
 
         }
-        
-    }
+    
+
+}
+    
+
 }

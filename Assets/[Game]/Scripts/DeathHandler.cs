@@ -14,8 +14,8 @@ public class DeathHandler : MonoBehaviour
     public void HandleDeath()
     {
         gameOverCanvas.enabled = true;
-        Time.timeScale = 0;
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        Time.timeScale = 0.01f; // time scale 0 yapmazsak oyun durmaz, arkada yavas yavas akmaya devam eder.
+        Cursor.lockState = CursorLockMode.None; // imleci lock olmaktan cikariyor
+        Cursor.visible = true; 
     }
 }

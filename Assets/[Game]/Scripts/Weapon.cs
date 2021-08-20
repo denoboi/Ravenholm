@@ -36,8 +36,9 @@ public class Weapon : MonoBehaviour
 
             dash.Play();
             //fireball.Play();
-            GameObject projectile = (GameObject)Instantiate(fireball, fpCamera.transform.position, fpCamera.transform.rotation);
+            GameObject projectile = (GameObject)Instantiate(fireball, transform.position, transform.rotation);
             projectile.GetComponent<Rigidbody>().AddForce(fireball.transform.forward* shootForce); 
+            
         }
 
         //if (Input.GetButton("Fire1"))
@@ -67,7 +68,8 @@ public class Weapon : MonoBehaviour
             EnemyHealth target = hit.transform.GetComponent<EnemyHealth>(); 
             if (target == null) return; //enemy yerine diger objelere ates edersem.
             target.TakeDamage(damage); // asil oldurecek olan bu.
-            
+           
+
 
         }
         else
