@@ -13,6 +13,11 @@ public class Weapon : MonoBehaviour
     [SerializeField] GameObject fireball;
     [SerializeField] float shootForce = 5f;
 
+    public Vector3 aimDownSight;
+    public Vector3 hipFire;
+    [SerializeField]
+    float aimspeed = 5f;
+
     // Start is called before the first frame update
     //Run spriteDelay;
     void Start()
@@ -49,6 +54,16 @@ public class Weapon : MonoBehaviour
         //{
         //    fireball.Stop();
         //}
+
+        if(Input.GetMouseButtonDown(1))
+            //0, 0.17,0.235
+        {
+            transform.localPosition = Vector3.Slerp(transform.localPosition, aimDownSight, aimspeed * Time.deltaTime);
+        }
+        if(Input.GetMouseButtonUp(1))
+        {
+            transform.localPosition = hipFire;
+        }
      
     }
 
