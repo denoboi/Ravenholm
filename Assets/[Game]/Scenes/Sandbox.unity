@@ -294,7 +294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &339796831
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3456,11 +3456,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4094824069697793040, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
       propertyPath: aimDownSight.y
-      value: 0.17
+      value: -0.17
       objectReference: {fileID: 0}
     - target: {fileID: 4094824069697793040, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
       propertyPath: aimDownSight.z
-      value: 0.235
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4094824070243768843, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
       propertyPath: m_Name
@@ -3570,9 +3570,17 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8816095083546086510, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 8848561234268145861, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
       propertyPath: m_Convex
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032777402996491589, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.472
       objectReference: {fileID: 0}
     - target: {fileID: 9032777402996491589, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
       propertyPath: m_LocalRotation.w

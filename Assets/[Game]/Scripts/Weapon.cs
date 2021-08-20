@@ -55,7 +55,7 @@ public class Weapon : MonoBehaviour
         //    fireball.Stop();
         //}
 
-        if(Input.GetMouseButtonDown(1))
+        if(Input.GetMouseButton(1))
             //0, 0.17,0.235
         {
             transform.localPosition = Vector3.Slerp(transform.localPosition, aimDownSight, aimspeed * Time.deltaTime);
