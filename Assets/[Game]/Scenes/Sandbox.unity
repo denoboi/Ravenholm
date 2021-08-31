@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 2313abaf274cc71468430113f21080ac, type: 2}
+--- !u!20 &154209078 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4094824070242523181, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
+  m_PrefabInstance: {fileID: 4094824068736503674}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &174502355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1402,6 +1407,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b198d9f7efcde80408aae3bf05929227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &827017564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9032777402996988261, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
+  m_PrefabInstance: {fileID: 4094824068736503674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &827017571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827017564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12943f8329d74724c876a8060ecf845c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 154209078}
+  minFOV: 45
+  t: 0.05
 --- !u!198 &840325289 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 8816095083546086510, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
@@ -3461,6 +3486,10 @@ PrefabInstance:
     - target: {fileID: 4094824069697793040, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
       propertyPath: aimDownSight.z
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094824070242523181, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
+      propertyPath: field of view
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4094824070243768843, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
       propertyPath: m_Name
