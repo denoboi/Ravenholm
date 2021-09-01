@@ -1419,7 +1419,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827017564}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12943f8329d74724c876a8060ecf845c, type: 3}
   m_Name: 
@@ -1427,6 +1427,8 @@ MonoBehaviour:
   cam: {fileID: 154209078}
   minFOV: 45
   t: 0.05
+  minMouseSens: 0.17
+  maxMouseSens: 2
 --- !u!198 &840325289 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 8816095083546086510, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
@@ -1746,7 +1748,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -3203,6 +3205,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverCanvas: {fileID: 496932207}
+--- !u!114 &2001932645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001932640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12943f8329d74724c876a8060ecf845c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 154209078}
+  minFOV: 45
+  t: 0.05
+  minMouseSens: 0.5
+  maxMouseSens: 2
 --- !u!1 &2002053133
 GameObject:
   m_ObjectHideFlags: 0

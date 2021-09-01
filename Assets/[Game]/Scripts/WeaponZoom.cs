@@ -3,6 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class WeaponZoom : MonoBehaviour
 {
@@ -12,11 +13,17 @@ public class WeaponZoom : MonoBehaviour
     public float minFOV = 45;
     [SerializeField]
     private float t = 0.05f;
+
+    RigidbodyFirstPersonController fpsController;
+    [SerializeField]
+    float minMouseSens = .5f;
+    [SerializeField]
+    float maxMouseSens = 2f;
     
 
     void Start()
     {
-         
+        fpsController = GetComponent<RigidbodyFirstPersonController>();
     }
 
     // Update is called once per frame
@@ -25,11 +32,16 @@ public class WeaponZoom : MonoBehaviour
         if(Input.GetMouseButton(1))
         {
             cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, minFOV, t);
-            
+            fpsController.mouseLook.XSensitivity = minMouseSens;
+            fpsController.mouseLook.YSensitivity = minMouseSens;
+
+
         }
         if(Input.GetMouseButtonUp(1))
         {
             cam.fieldOfView = 60;
+            fpsController.mouseLook.XSensitivity = maxMouseSens;
+            fpsController.mouseLook.YSensitivity = maxMouseSens;
         }
     }
 }
