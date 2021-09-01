@@ -13,10 +13,12 @@ public class Weapon : MonoBehaviour
     //[SerializeField] ParticleSystem fireball;
     [SerializeField] GameObject fireball;
     [SerializeField] float shootForce = 5f;
+
+    [SerializeField] public Vector3 smoothAds;
     
     [SerializeField] Ammo ammoSlot;
     bool ammoAvailable = true;
-
+    bool isAiming = false;
     public Vector3 aimDownSight;
     public Vector3 hipFire;
     
@@ -62,17 +64,27 @@ public class Weapon : MonoBehaviour
         //    fireball.Stop();
         //}
 
+        if(Input.GetMouseButtonDown(1))
+        {
+            hipFire = transform.localPosition;
+            isAiming = true;
+        }    
         if (Input.GetMouseButton(1))
         //0, 0.17,0.235
         {
-            transform.localPosition = Vector3.Slerp(transform.localPosition, aimDownSight, aimspeed * Time.deltaTime); ;
-             
+            transform.localPosition = Vector3.Lerp(transform.localPosition, aimDownSight, aimspeed * Time.deltaTime);
+            
+            
         }
         if (Input.GetMouseButtonUp(1))
         {
-            transform.localPosition = hipFire;
+            isAiming = false;
+            
         }
-
+        if(isAiming == false && transform.localPosition != hipFire)
+        {
+            transform.localPosition = Vector3.Lerp(transform.localPosition, hipFire, 7f * Time.deltaTime);
+        }
     }
 
     void Shoot()
