@@ -66,14 +66,13 @@ public class Weapon : MonoBehaviour
 
         if(Input.GetMouseButtonDown(1))
         {
-            hipFire = transform.localPosition;
+            smoothAds= transform.localPosition;
             isAiming = true;
         }    
         if (Input.GetMouseButton(1))
         //0, 0.17,0.235
         {
             transform.localPosition = Vector3.Lerp(transform.localPosition, aimDownSight, aimspeed * Time.deltaTime);
-            
             
         }
         if (Input.GetMouseButtonUp(1))
