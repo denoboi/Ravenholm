@@ -143,7 +143,7 @@
     <Compile Include="Assets\Asset Packs\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\[Game]\Scripts\Reticle.cs" />
+    <Compile Include="Assets\[Game]\Unused\Reticle.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Utility\CurveControlledBob.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Utility\FollowTarget.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />

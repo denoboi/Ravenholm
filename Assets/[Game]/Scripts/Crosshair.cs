@@ -27,7 +27,7 @@ public class Crosshair : MonoBehaviour
     {
 
         //for demonstration purposes
-        if (Input.GetMouseButton(0)) { resizing = true; } else { resizing = false; }
+        if (Input.GetMouseButton(0) || Input.GetKey(KeyCode.W)) { resizing = true; } else { resizing = false; }
 
         if (resizeable)
         {
