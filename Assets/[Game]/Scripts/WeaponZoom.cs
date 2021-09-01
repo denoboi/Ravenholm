@@ -11,7 +11,7 @@ public class WeaponZoom : MonoBehaviour
     public Camera cam;
     public float minFOV = 45;
     [SerializeField]
-    private float t = 0.1f;
+    private float t = 0.05f;
     
 
     void Start()
