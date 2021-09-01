@@ -13,10 +13,13 @@ public class Weapon : MonoBehaviour
     //[SerializeField] ParticleSystem fireball;
     [SerializeField] GameObject fireball;
     [SerializeField] float shootForce = 5f;
+    
+    [SerializeField] Ammo ammoSlot;
+    bool ammoAvailable = true;
 
     public Vector3 aimDownSight;
     public Vector3 hipFire;
-    private Vector3 smoothADS;
+    
      
     [SerializeField]
     float aimspeed = 5f;
@@ -37,13 +40,13 @@ public class Weapon : MonoBehaviour
             Shoot();
             //muzzleSprite.SetActive(true);
             //if (spriteDelay != null)
-                //spriteDelay.Abort();
-          //spriteDelay =  Run.After(0.2f, () =>
+            //spriteDelay.Abort();
+            //spriteDelay =  Run.After(0.2f, () =>
             //{
-               // muzzleSprite.SetActive(false);
-           // });
+            // muzzleSprite.SetActive(false);
+            // });
 
-            dash.Play();
+            
             //fireball.Play();
             GameObject projectile = (GameObject)Instantiate(fireball, transform.position, transform.rotation);
             projectile.GetComponent<Rigidbody>().AddForce(fireball.transform.forward * shootForce); 
@@ -74,9 +77,17 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
-        
-        ProcessRaycast();
-        
+        if (ammoAvailable == true)
+        {
+            ProcessRaycast();
+            dash.Play();
+            ammoSlot.ReduceAmmo();
+        }
+        if (ammoSlot.GetCurrentAmmo() <= 0 )
+        {
+            ammoAvailable = false;
+        }
+
     }
 
     public void ProcessRaycast()

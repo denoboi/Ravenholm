@@ -151,6 +151,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonSoundSpawn.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+    <Compile Include="Assets\[Game]\Scripts\WeaponZoom.cs" />
     <Compile Include="Assets\FPS Pack\Scripts\Demo\FPSDemoReactivator.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Utility\ForcedReset.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
@@ -226,7 +227,7 @@
     <Compile Include="Assets\Asset Packs\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\[Game]\Scripts\WeaponZoom.cs" />
+    <Compile Include="Assets\[Game]\Scripts\Ammo.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Asset Packs\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
