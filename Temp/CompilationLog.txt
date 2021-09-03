@@ -1,2 +1,8 @@
 # Starting compiling Assembly-CSharp.dll
+<<<<<<< Updated upstream
 C:\Users\asus\Desktop\Unity\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-2bc9c328bca3bf94bb2a69f1a259d531
+=======
+C:\Users\asus\Desktop\Unity\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-0eee87ea32a39134398ba21aee0d1300
+# Starting compiling Assembly-CSharp-Editor.dll
+C:\Users\asus\Desktop\Unity\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-ad5a949e288084040a9b5bbffe1c753e
+>>>>>>> Stashed changes

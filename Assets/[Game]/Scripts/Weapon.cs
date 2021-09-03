@@ -66,7 +66,11 @@ public class Weapon : MonoBehaviour
 
         if(Input.GetMouseButtonDown(1))
         {
+<<<<<<< Updated upstream
             hipFire = transform.localPosition;
+=======
+            smoothAds = transform.localPosition;
+>>>>>>> Stashed changes
             isAiming = true;
         }    
         if (Input.GetMouseButton(1))
