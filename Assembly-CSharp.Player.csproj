@@ -227,6 +227,7 @@
     <Compile Include="Assets\Asset Packs\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\[Game]\Scripts\EnemyAI1.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Asset Packs\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />

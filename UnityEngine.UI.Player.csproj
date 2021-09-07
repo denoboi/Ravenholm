@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Image.cs" />
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Text.cs" />
+    <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\GraphicRaycaster.cs" />
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\StandaloneInputModule.cs" />
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Toggle.cs" />
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutElement.cs" />
@@ -90,7 +91,6 @@
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\StencilMaterial.cs" />
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Culling\IClipRegion.cs" />
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Misc.cs" />
-    <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\GraphicRaycaster.cs" />
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\InputField.cs" />
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Scrollbar.cs" />
     <Compile Include="D:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ToggleGroup.cs" />
