@@ -24,7 +24,7 @@ public class Weapon : MonoBehaviour
     
      
     [SerializeField]
-    float aimspeed = 5f;
+    float aimspeed = 1500f;
     
 
     // Start is called before the first frame update
