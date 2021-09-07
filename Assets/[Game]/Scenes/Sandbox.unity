@@ -756,7 +756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2119993685}
-  chaseRange: 5
+  chaseRange: 8
 --- !u!1001 &629848218
 PrefabInstance:
   m_ObjectHideFlags: 0
