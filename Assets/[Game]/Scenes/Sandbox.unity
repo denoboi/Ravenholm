@@ -756,7 +756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2119993685}
-  chaseRange: 8
+  chaseRange: 12
 --- !u!1001 &629848218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3785,6 +3785,10 @@ PrefabInstance:
       value: 0.293
       objectReference: {fileID: 0}
     - target: {fileID: 1960195992, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960195992, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 2119993685}
@@ -3798,7 +3802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278157, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_Speed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7516788911432278157, guid: 555bdaa30562c3f42b7e3a51f92988a4, type: 3}
       propertyPath: m_StoppingDistance

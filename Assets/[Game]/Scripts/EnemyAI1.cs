@@ -8,6 +8,7 @@ public class EnemyAI1 : MonoBehaviour
 {
     [SerializeField] Transform target;
     [SerializeField] float chaseRange = 5f;
+    [SerializeField] float damage = 20f;
 
     NavMeshAgent navMeshAgent;
 
@@ -20,6 +21,16 @@ public class EnemyAI1 : MonoBehaviour
         navMeshAgent = GetComponent<NavMeshAgent>();
     }
 
+    private void OnEnable()
+    {
+        EventManager.OnDamageTaken.AddListener(OnDamageTaken);
+    }
+    private void OnDisable()
+    {
+        EventManager.OnDamageTaken.RemoveListener(OnDamageTaken);
+    }
+
+
 
     void Update()
     {
@@ -27,11 +38,13 @@ public class EnemyAI1 : MonoBehaviour
         if (isProvoked)
         {
             EngageTarget();
+            
         }
 
         else if (distanceToTarget <= chaseRange)
         {
             isProvoked = true;
+
         }
 
 
@@ -40,23 +53,30 @@ public class EnemyAI1 : MonoBehaviour
     void ChaseTarget()
     {
         GetComponent<Animator>().SetTrigger("Move");
+        GetComponent<Animator>().SetBool("Attack", false);
+        
         navMeshAgent.SetDestination(target.position);
     }    
 
     void AttackTarget()
     {
         GetComponent<Animator>().SetBool("Attack", true);
+        
         Debug.Log(name + "has seeked and is destroying" + target.name);
+        //if (target == null) return;
+
+        //target.GetComponent<PlayerHealth>().TakeDamage(damage);
+
     }
 
-        void EngageTarget()
+    void EngageTarget()
         {
             if (distanceToTarget >= navMeshAgent.stoppingDistance)
             {
                 ChaseTarget();
             }
 
-            if (distanceToTarget <= navMeshAgent.stoppingDistance)
+            else if (distanceToTarget <= navMeshAgent.stoppingDistance)
             {
                 AttackTarget();
 
@@ -68,6 +88,12 @@ public class EnemyAI1 : MonoBehaviour
      // Display the chase radius when selected
      Gizmos.color = Color.red;
      Gizmos.DrawWireSphere(transform.position, chaseRange);
+    }
+
+    void OnDamageTaken()
+    {
+        isProvoked = true;
+
     }
 
 }
