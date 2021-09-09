@@ -140,6 +140,7 @@
     <Compile Include="Assets\Asset Packs\RunAfter\RunAfter\GUIHelper.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\[Game]\Scripts\EnemyAI1.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -227,7 +228,7 @@
     <Compile Include="Assets\Asset Packs\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Asset Packs\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\[Game]\Scripts\EnemyAI1.cs" />
+    <Compile Include="Assets\[Game]\Scripts\TakeAmmo.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Asset Packs\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
