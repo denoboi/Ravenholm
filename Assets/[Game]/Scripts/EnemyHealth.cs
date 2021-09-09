@@ -16,7 +16,7 @@ public class EnemyHealth : MonoBehaviour
     {
         EventManager.OnDamageTaken.Invoke();
         hitPoints -= damage; //ne kadar damage ise o kadar health azalacak.
-        if (hitPoints == 0)
+        if (hitPoints <= 0)
         {
             Destroy(gameObject);
 

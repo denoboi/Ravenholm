@@ -24,7 +24,7 @@ public class Weapon : MonoBehaviour
     
      
     [SerializeField]
-    float aimspeed = 5f;
+    float aimspeed = 1500f;
     
 
     // Start is called before the first frame update
@@ -66,7 +66,10 @@ public class Weapon : MonoBehaviour
 
         if(Input.GetMouseButtonDown(1))
         {
-            hipFire = transform.localPosition;
+
+
+            smoothAds = transform.localPosition;
+
             isAiming = true;
         }    
         if (Input.GetMouseButton(1))

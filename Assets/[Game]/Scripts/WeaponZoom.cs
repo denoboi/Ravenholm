@@ -12,7 +12,7 @@ public class WeaponZoom : MonoBehaviour
     public Camera cam;
     public float minFOV = 45;
     [SerializeField]
-    private float t = 0.05f;
+    private float t = 0.1f;
 
     RigidbodyFirstPersonController fpsController;
     [SerializeField]
@@ -38,8 +38,8 @@ public class WeaponZoom : MonoBehaviour
             fpsController.mouseLook.XSensitivity = minMouseSens;
             fpsController.mouseLook.YSensitivity = minMouseSens;
             
-
-
+            
+            
         }
         if(Input.GetMouseButtonUp(1))
         {
@@ -48,7 +48,7 @@ public class WeaponZoom : MonoBehaviour
         }
         if(isAiming == false && cam.fieldOfView !=60)
         {
-            cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 60, 0.1f); 
+            cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 60, 0.05f); 
             fpsController.mouseLook.XSensitivity = maxMouseSens;
             fpsController.mouseLook.YSensitivity = maxMouseSens;
         }

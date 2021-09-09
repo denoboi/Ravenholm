@@ -1,50 +1,449 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19043.1165; Version 2009; 64bit' Language: 'tr' Physical Memory: 16267 MB
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16331 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Users\asus\Desktop\Unity\2020.3.8f1\Editor\Unity.exe
+D:\Unity\2020.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/asus/OneDrive/Belgeler/GitHub/Zombie-Runner1
+D:/Unity Clone/Zombie-Runner1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65517
-Successfully changed project path to: C:/Users/asus/OneDrive/Belgeler/GitHub/Zombie-Runner1
-C:/Users/asus/OneDrive/Belgeler/GitHub/Zombie-Runner1
+49712
+Successfully changed project path to: D:/Unity Clone/Zombie-Runner1
+D:/Unity Clone/Zombie-Runner1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 408.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.8f1 (507919d4fff5)
-[Subsystems] Discovering subsystems at path C:/Users/asus/Desktop/Unity/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/asus/OneDrive/Belgeler/GitHub/Zombie-Runner1/Assets
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Clone/Zombie-Runner1/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 850M (ID=0x1391)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   
-    VRAM:     4055 MB
+    VRAM:     8079 MB
+    Driver:   27.21.14.5671
 Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
 Initialize mono
-Mono path[0] = 'C:/Users/asus/Desktop/Unity/2020.3.8f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/asus/Desktop/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Users/asus/Desktop/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Mono path[0] = 'D:/Unity/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/asus/Desktop/Unity/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.366519 seconds.
+Register platform support module: D:/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001277 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 14.450 seconds
+- Completed reload, in  0.769 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.107557 seconds.
+Registered in 0.001163 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1476 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.5 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1921.
+Total: 1.769800 ms (FindLiveObjects: 0.144400 ms CreateObjectMapping: 0.048700 ms MarkObjects: 1.277600 ms  DeleteObjects: 0.298300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/[Game]/Materials
+  artifactKey: Guid(192f89e84caa44e4289780b2296725a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Game]/Materials using Guid(192f89e84caa44e4289780b2296725a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b7f21ec4774f21e237add90c4229e5') in 0.005759 seconds
+  Import took 0.008346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.301688 seconds.
+  path: Assets/[Game]/Materials/Ammo.mat
+  artifactKey: Guid(a2d4972df74c0e64881e11c4075479b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Game]/Materials/Ammo.mat using Guid(a2d4972df74c0e64881e11c4075479b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc6a86f7dc9e0520fb5bf4e6d95295b') in 0.120115 seconds
+  Import took 0.122254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 211.714221 seconds.
+  path: Assets/[Game]/Scripts/Ammo.cs
+  artifactKey: Guid(3a5343aab14a8344d947d10b36760b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Game]/Scripts/Ammo.cs using Guid(3a5343aab14a8344d947d10b36760b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f9ed63c085b0cc7e1442d290890c3b') in 0.007698 seconds
+  Import took 0.010632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002043 seconds.
+  path: Assets/[Game]/Scripts/Ammo.cs
+  artifactKey: Guid(3a5343aab14a8344d947d10b36760b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Game]/Scripts/Ammo.cs using Guid(3a5343aab14a8344d947d10b36760b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f9ed63c085b0cc7e1442d290890c3b') in 0.002732 seconds
+  Import took 0.004878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.203927 seconds.
+  path: Assets/[Game]/Scripts/TakeAmmo.cs
+  artifactKey: Guid(dfc56ea594182f6419e6f934e2397743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Game]/Scripts/TakeAmmo.cs using Guid(dfc56ea594182f6419e6f934e2397743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cf87b6eb923bd045c14bf22d85e221') in 0.007689 seconds
+  Import took 0.010418 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1965.
+Total: 2.452400 ms (FindLiveObjects: 0.699100 ms CreateObjectMapping: 0.113300 ms MarkObjects: 1.369200 ms  DeleteObjects: 0.269400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.745327 seconds.
+  path: Assets/[Game]/Scripts/TakeAmmo.cs
+  artifactKey: Guid(dfc56ea594182f6419e6f934e2397743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Game]/Scripts/TakeAmmo.cs using Guid(dfc56ea594182f6419e6f934e2397743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13dddc74c08d68095904f01354a342d') in 0.008974 seconds
+  Import took 0.011968 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001370 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1968.
+Total: 2.030700 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.057400 ms MarkObjects: 1.456700 ms  DeleteObjects: 0.325800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001256 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1971.
+Total: 2.141600 ms (FindLiveObjects: 0.241000 ms CreateObjectMapping: 0.069100 ms MarkObjects: 1.524000 ms  DeleteObjects: 0.305700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.626 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 2.703800 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.063400 ms MarkObjects: 2.017500 ms  DeleteObjects: 0.386400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001218 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.726 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 1.734100 ms (FindLiveObjects: 0.150500 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.217700 ms  DeleteObjects: 0.323700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1814.040520 seconds.
+  path: Assets/[Game]/Scripts/Ammo.cs
+  artifactKey: Guid(3a5343aab14a8344d947d10b36760b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Game]/Scripts/Ammo.cs using Guid(3a5343aab14a8344d947d10b36760b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3303f99c98c46838627d01de9a8b81cf') in 0.005270 seconds
+  Import took 0.007782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.238656 seconds.
+  path: Assets/[Game]/Scripts/Ammo.cs
+  artifactKey: Guid(3a5343aab14a8344d947d10b36760b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Game]/Scripts/Ammo.cs using Guid(3a5343aab14a8344d947d10b36760b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3303f99c98c46838627d01de9a8b81cf') in 0.002798 seconds
+  Import took 0.005562 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 1.991300 ms (FindLiveObjects: 0.165100 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.426100 ms  DeleteObjects: 0.351100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1983.
+Total: 1.899400 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.320800 ms  DeleteObjects: 0.339900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.637 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1986.
+Total: 1.963100 ms (FindLiveObjects: 0.166800 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.397400 ms  DeleteObjects: 0.344900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 1.953100 ms (FindLiveObjects: 0.162100 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.418000 ms  DeleteObjects: 0.333200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 3.233600 ms (FindLiveObjects: 0.331900 ms CreateObjectMapping: 0.120300 ms MarkObjects: 2.285200 ms  DeleteObjects: 0.494800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001782 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1995.
+Total: 1.766400 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.240400 ms  DeleteObjects: 0.334100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001417 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 1.894200 ms (FindLiveObjects: 0.193600 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.287300 ms  DeleteObjects: 0.357600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001261 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.643 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2001.
+Total: 1.832200 ms (FindLiveObjects: 0.145300 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.307000 ms  DeleteObjects: 0.337500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001220 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.652 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2004.
+Total: 2.087900 ms (FindLiveObjects: 0.161300 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.514200 ms  DeleteObjects: 0.364700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001244 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Platform modules already initialized, skipping
+Shader 'Effects/FPS_Pack/FPSGlass': fallback shader 'Effects/Distortion/Free/CullOff' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 2.041100 ms (FindLiveObjects: 0.308800 ms CreateObjectMapping: 0.118900 ms MarkObjects: 1.267900 ms  DeleteObjects: 0.344000 ms)
+
