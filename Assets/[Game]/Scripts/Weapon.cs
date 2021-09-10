@@ -34,7 +34,7 @@ public class Weapon : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+         if(Input.GetMouseButtonDown(0))       //if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
            
@@ -74,6 +74,11 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
+        if (ammoSlot.GetCurrentAmmo() > 0)
+        {
+            ammoAvailable = true;
+        }
+
         if (ammoAvailable == true)
         {
             ProcessRaycast();
@@ -82,15 +87,12 @@ public class Weapon : MonoBehaviour
                      
         }
 
-        if (ammoSlot.GetCurrentAmmo() <= 1 )
+        if (ammoSlot.GetCurrentAmmo() <= 0 )
         {
             ammoAvailable = false;
         }
 
-        if (ammoSlot.GetCurrentAmmo() > 0)
-        {
-            ammoAvailable = true;
-        }
+        
 
     }
         

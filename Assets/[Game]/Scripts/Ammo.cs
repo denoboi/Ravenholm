@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ammo : MonoBehaviour
 {
     [SerializeField]
-    public int ammoAmount;
+    public int ammoAmount  ;
 
     public int GetCurrentAmmo()
         {

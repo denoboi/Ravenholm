@@ -37,9 +37,7 @@ public class WeaponZoom : MonoBehaviour
             cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, minFOV, t);
             fpsController.mouseLook.XSensitivity = minMouseSens;
             fpsController.mouseLook.YSensitivity = minMouseSens;
-            
-            
-            
+                 
         }
         if(Input.GetMouseButtonUp(1))
         {
