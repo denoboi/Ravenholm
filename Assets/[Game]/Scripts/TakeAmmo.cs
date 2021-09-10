@@ -9,10 +9,10 @@ public class TakeAmmo : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            
             Destroy(gameObject);
+            FindObjectOfType<Ammo>().IncreaseAmmo();
             
         }
-        FindObjectOfType<Ammo>().IncreaseAmmo();
+        
     }
 }

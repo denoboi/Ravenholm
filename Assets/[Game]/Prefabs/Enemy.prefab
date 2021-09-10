@@ -298,4 +298,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  chaseRange: 12
+  chaseRange: 18
+  damage: 20

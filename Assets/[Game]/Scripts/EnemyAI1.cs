@@ -41,10 +41,16 @@ public class EnemyAI1 : MonoBehaviour
             
         }
 
-        else if (distanceToTarget <= chaseRange)
+        if (distanceToTarget <= chaseRange)
         {
             isProvoked = true;
 
+        }
+
+        else
+        {
+            isProvoked = false;
+            GetComponent<Animator>().SetBool("Idle", true);
         }
 
 
@@ -93,7 +99,6 @@ public class EnemyAI1 : MonoBehaviour
     void OnDamageTaken()
     {
         isProvoked = true;
-
     }
 
 }
