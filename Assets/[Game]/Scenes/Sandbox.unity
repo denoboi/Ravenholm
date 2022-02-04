@@ -1040,27 +1040,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.9555
+      value: 2.5434058
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.66838413
+      value: 0.5751893
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5.9074
+      value: 5.6642737
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 90.3
+      value: 90.62
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 109.41835
+      value: 109.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22
+      value: 24.29
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1850,10 +1850,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686479a4f24e62d43b6f273e7e27bdf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerRigidbody: {fileID: 0}
-  restingSize: 100
-  maxSize: 100
-  speed: 10
 --- !u!1 &871632920
 GameObject:
   m_ObjectHideFlags: 0
@@ -2695,10 +2691,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686479a4f24e62d43b6f273e7e27bdf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerRigidbody: {fileID: 2114516503}
-  restingSize: 100
-  maxSize: 200
-  speed: 50
 --- !u!4 &1339437372 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
@@ -3556,27 +3548,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.541562
+      value: 3.6933467
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.26091656
+      value: 0.17389597
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5.9074
+      value: 3.937171
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 129.80363
+      value: 133.61
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 109.41835
+      value: 109.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.33412
+      value: -4.19
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3730,10 +3722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686479a4f24e62d43b6f273e7e27bdf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerRigidbody: {fileID: 0}
-  restingSize: 189.96
-  maxSize: 283.45
-  speed: 10.13
 --- !u!1 &1772598885
 GameObject:
   m_ObjectHideFlags: 0
@@ -4271,11 +4259,6 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
---- !u!54 &2114516503 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 4094824070247004525, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
-  m_PrefabInstance: {fileID: 4094824068736503674}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2119993685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4094824070244124207, guid: e147ea29e0526f4439c6ee72e05d2dc1, type: 3}
