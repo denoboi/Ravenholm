@@ -1,3 +1,8 @@
 /[Ll]ibrary/
 Temp/UnityLockfile
 .vs/Zombie-Runner1/v16/Browse.VC.opendb
+Library/SourceAssetDB
+Library/ArtifactDB
+*.log
+*.log
+*.log
