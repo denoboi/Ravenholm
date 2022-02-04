@@ -108,7 +108,7 @@ public class Weapon : MonoBehaviour
             if (target == null) return; //enemy yerine diger objelere ates edersem.
             
             target.TakeDamage(damage); // asil oldurecek olan bu.
-
+            
         }
        
     }
