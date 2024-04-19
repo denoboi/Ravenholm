@@ -7,8 +7,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class WeaponZoom : MonoBehaviour
 {
-    // Start is called before the first frame update
-
+   
     public Camera cam;
     public float minFOV = 45;
     [SerializeField]
@@ -28,7 +27,6 @@ public class WeaponZoom : MonoBehaviour
         fpsController = GetComponent<RigidbodyFirstPersonController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetMouseButton(1))
