@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{6E026B0D-3A02-090A-1616-00C926A61380}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -185,18 +186,18 @@
     <Compile Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Legacy\MP4\MP4RecorderSettingsEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Legacy\FrameCapturer\Plugins\x86_64\fccore.dll" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\Shaders\BS4Accumulate.shader" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Unity.Recorder.Editor.asmdef" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Assets\Styles\recorder_darkSkin.uss" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\Camera\Shaders\CameraInputCopy.shader" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\Camera\Shaders\MakeOpaque.shader" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\Shaders\BS4SuperShader.shader" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\Camera\Shaders\CopyFB.shader" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Legacy\FrameCapturer\Plugins\x86\fccore.dll" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Assets\Styles\recorder.uss" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Assets\Styles\recorder_lightSkin.uss" />
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\Shaders\BS4Normalize.shader" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Legacy\FrameCapturer\Plugins\x86_64\fccore.dll" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\Shaders\BS4Accumulate.shader" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Unity.Recorder.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Assets\Styles\recorder_darkSkin.uss" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\Camera\Shaders\CameraInputCopy.shader" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\Camera\Shaders\MakeOpaque.shader" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\Shaders\BS4SuperShader.shader" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\Camera\Shaders\CopyFB.shader" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Legacy\FrameCapturer\Plugins\x86\fccore.dll" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Assets\Styles\recorder.uss" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Assets\Styles\recorder_lightSkin.uss" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Editor\Sources\Recorders\_Inputs\RenderTextureSampler\Shaders\BS4Normalize.shader" />
     <Reference Include="UnityEngine">
       <HintPath>G:\UnityEditors\2020.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

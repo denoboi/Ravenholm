@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{CC0380BD-9F1E-4DEC-A4FD-3CE3C983AD9D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -59,7 +60,7 @@
     <Compile Include="Library\PackageCache\com.unity.recorder@2.5.5\Runtime\Base\RefHandle.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Runtime\Base\Unity.Recorder.Base.asmdef" />
+    <None Include="Library\PackageCache\com.unity.recorder@2.5.5\Runtime\Base\Unity.Recorder.Base.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>G:\UnityEditors\2020.3.7f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
     </Reference>

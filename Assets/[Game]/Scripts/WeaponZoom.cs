@@ -7,7 +7,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class WeaponZoom : MonoBehaviour
 {
-    // Start is called before the first frame update
+   
 
     public Camera cam;
     public float minFOV = 45;
